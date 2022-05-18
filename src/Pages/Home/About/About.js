@@ -62,7 +62,7 @@ const About = () => {
               establishment should contact the local health authority and follow
               their instructions. The sick person should be isolated in a room,
               alone, or at least 1 metre away from others, according to local
-              health authorities’ instructions. No visitors should be permitted
+              health authorities instructions. No visitors should be permitted
               to enter the room occupied by the affected guest. Staff should
               also move people traveling with the sick person to a different
               room, if possible. It is usually the relevant public health
@@ -80,7 +80,17 @@ const About = () => {
         <section id="about">
           <div className="article">
             <article>
-            The aim of this paper is to estimate households’ willingness to pay (WTP) for the development of community based tourism (CBT) around Alelo Bad hot spring water. To achieve the stated objective, relevant data was collected from a total of 157 sample respondents through questionnaires, interviews and field observation techniques. In this study, both descriptive and econometric models (Seemingly Unrelated Bivariate Probit and Probit models) were used to analyze the collected data. The descriptive statistics clearly shows that 66.24% of the respondents were willing to pay for the existence of the proposed project while 33.76% were not willing to pay. 
+              The aim of this paper is to estimate households’ willingness to
+              pay (WTP) for the development of community based tourism (CBT)
+              around Alelo Bad hot spring water. To achieve the stated
+              objective, relevant data was collected from a total of 157 sample
+              respondents through questionnaires, interviews and field
+              observation techniques. In this study, both descriptive and
+              econometric models (Seemingly Unrelated Bivariate Probit and
+              Probit models) were used to analyze the collected data. The
+              descriptive statistics clearly shows that 66.24% of the
+              respondents were willing to pay for the existence of the proposed
+              project while 33.76% were not willing to pay.
             </article>
           </div>
           <div className="img">
@@ -93,7 +103,20 @@ const About = () => {
           </div>
           <div className="article">
             <article>
-            Being green has become a focus in hospitality as evidenced by the rise of sustainable tourism in general and green hotels in particular. The current research examines the impact of willingness to sacrifice for the environment on green hotel evaluations and demonstrates that consumers high in willingness to sacrifice are more likely to embrace green hotels (Study 1). However, this effect is moderated by a green hotel’s positioning strategy (i.e., underdog versus top dog), which signals quality-based information (Study 2), and its green advertising appeals (i.e., competence versus warmth), which signal both quality-based and intent-based information (Study 3). Our research offers a theoretical framework for hotels to develop proper market signals to promote their green focus and it provides guidance for effective brand positioning and advertising strategies.
+              Being green has become a focus in hospitality as evidenced by the
+              rise of sustainable tourism in general and green hotels in
+              particular. The current research examines the impact of
+              willingness to sacrifice for the environment on green hotel
+              evaluations and demonstrates that consumers high in willingness to
+              sacrifice are more likely to embrace green hotels (Study 1).
+              However, this effect is moderated by a green hotel’s positioning
+              strategy (i.e., underdog versus top dog), which signals
+              quality-based information (Study 2), and its green advertising
+              appeals (i.e., competence versus warmth), which signal both
+              quality-based and intent-based information (Study 3). Our research
+              offers a theoretical framework for hotels to develop proper market
+              signals to promote their green focus and it provides guidance for
+              effective brand positioning and advertising strategies.
             </article>
           </div>
         </section>
