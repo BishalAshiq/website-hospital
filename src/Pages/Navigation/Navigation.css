@@ -1,0 +1,17 @@
+.navigation{
+    background-color: rgba(239, 12, 159, 0.484);
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+img{
+    width: 300px;
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    font-weight: bolder;
+    font-size: larger;
+    margin-right: 40px;
+}
