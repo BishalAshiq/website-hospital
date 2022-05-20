@@ -2,7 +2,7 @@ import { Routes, Route} from "react-router-dom";
 import './App.css';
 import Home from "./Pages/Home/Home/Home";
 import About from "./Pages/Home/About/About";
-import Navigation from "./Pages/Navigation/Navigation";
+import Navigation from "./Shared/Navigation/Navigation";
 function App() {
   return (
     <div className="App">
