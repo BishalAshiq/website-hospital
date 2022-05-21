@@ -1,0 +1,9 @@
+.extra-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    color: rgb(86, 77, 77);
+    font-weight: 500;
+    text-align: justify;
+}
