@@ -1,7 +1,6 @@
 import React from "react";
 import { experimentalStyled as styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import { Container } from "@mui/material";
 import Service from '../Service/Service';
@@ -25,49 +24,49 @@ const services = [
       {
         name: "Eye Care",
         description:
-          " You may feel a bit of a sting, but thats a reaction from the local anesthetic when it starts to block the nerve signals to stop the pain.",
+          "Optometrists are healthcare professionals with a degree in eye care, specifically. They are Doctors of Optometry this includes optical.",
         img: Eye,
       },
       {
-        name: "Heart Specialist",
+        name: "Cardiology",
         description:
-          "The good news is that yellow teeth can become white again. Part of the process takes place at home, while the other part is in your dentists office.",
+          "All cardiologists study the disorders of the heart, but the study of adult and child heart disorders are through different training pathways.",
         img: Heart,
       },
       {
         name: "Corona Virus Treatment",
         description:
-          "The good news is that yellow teeth can become white again. Part of the process takes place at home, while the other part is in your dentists office.",
+          "Coronaviruses die very quickly when exposed to the UV light in sunlight.SARS-CoV-2 survives longest when the temperature is at room temperature or lower",
         img: Corona,
       },
       {
         name: "Orthopedics Specialist",
         description:
-          "The good news is that yellow teeth can become white again. Part of the process takes place at home, while the other part is in your dentists office.",
+          "An orthopedic doctor, also known as an orthopedic surgeon, specializes in diagnosing and treating injuries or illnesses to the musculoskeletal system.",
         img: Aurthopedics,
       },
       {
         name: "Kidney Specialist",
         description:
-          "The good news is that yellow teeth can become white again. Part of the process takes place at home, while the other part is in your dentists office.",
+          "Neurologists or kidney doctors, study the kidneys and any diseases that affect them. They complete 2 more years of training after medical school and residency.",
         img: kidney,
       },
       {
         name: "Hair Solution",
         description:
-          "The good news is that yellow teeth can become white again. Part of the process takes place at home, while the other part is in your dentists office.",
+          "Hair Solution is the leader in state-of-the-art hair replacement systems, providing a 100% natural look that's undetectable to sight and touch.",
         img: Hair,
       },
       {
-        name: "Nose-Ear-Throat Specialist",
+        name: "Otolaryngology Specialist",
         description:
-          "The good news is that yellow teeth can become white again. Part of the process takes place at home, while the other part is in your dentists office.",
+          "Otolaryngology is a medical specialty which is focused on the ears, nose, and throat. It is also called otolaryngology-head and neck surgery.",
         img: NET,
       },
       {
         name: "Spine Specialist",
         description:
-          "The good news is that yellow teeth can become white again. Part of the process takes place at home, while the other part is in your dentists office.",
+          "Neurologists provide medical, but not surgical, treatment of diseases affecting the brain, spine and nervous system.",
         img: Spine,
       },
     ];
