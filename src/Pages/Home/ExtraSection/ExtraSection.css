@@ -1,6 +1,11 @@
 .extra-section{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+h2{
+    font-size: xx-large;
 }
 p{
     color: rgb(86, 77, 77);
