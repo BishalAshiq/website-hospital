@@ -1,5 +1,6 @@
 import { Container } from "@mui/system";
 import React from "react";
+import Button from '@mui/material/Button';
 import "./ExtraTemp.css";
 import doctors from "../../../Images/Extra-section/Doctor-1.png";
 
@@ -22,6 +23,9 @@ const ExtraTemp = () => {
               People with health problems who visit the hospital for diagnosis
               or  treatment, but do not at this time require a bed or  to be admitted for overnight care.
             </p>
+            <Button variant="contained">
+                Learn More
+            </Button>
           </div>
           <div className="temp-img">
             <img src={doctors} alt="" />
