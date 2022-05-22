@@ -2,6 +2,17 @@
     display: flex;
     justify-content: space-evenly;
 }
-.temp{
-    align-items: right;
+
+.temp-img{
+    margin-top: -80px;
+}
+
+.temp-h1{
+    color: antiquewhite;
+
+}
+.temp-p{
+    color:rgb(255, 255, 255);
+    margin-right: 20px;
+    text-align: justify;
 }
