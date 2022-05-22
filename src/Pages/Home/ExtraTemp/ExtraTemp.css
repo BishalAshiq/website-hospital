@@ -1,6 +1,8 @@
 .section{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .temp-img{
@@ -9,10 +11,9 @@
 
 .temp-h1{
     color: antiquewhite;
-
+    margin-top: 70px;
 }
 .temp-p{
     color:rgb(255, 255, 255);
-    margin-right: 20px;
     text-align: justify;
 }
