@@ -1,8 +1,7 @@
 # Getting Started with React 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+This project was MUI with (https://github.com/BishalAshiq/website-hospital).
+Server Site (https://jolly-salmiakki-6b8fc8.netlify.app)
 
 In the project directory, you can see Medical Website:
 
