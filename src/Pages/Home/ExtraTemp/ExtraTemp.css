@@ -1,3 +1,7 @@
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}
 .temp{
-    text-align: right;
+    align-items: right;
 }
