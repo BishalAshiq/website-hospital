@@ -11,7 +11,7 @@ const PatientsReview = () => {
   const [value, setValue] = React.useState(2);
   return (
     <div>
-      <h1 style={{ color: "#44FDDC" }}>Our Patients Says</h1>
+      <h1 className="review-h1" style={{ color: "#033330" }}>Our Patients Says</h1>
       <Container>
         <div className="patients">
           <div className="review">

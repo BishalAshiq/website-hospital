@@ -1,5 +1,5 @@
 import React from "react";
-import { experimentalStyled as styled } from "@mui/material/styles";
+import './Services.css';
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import { Container } from "@mui/material";
@@ -75,7 +75,7 @@ const Services = () => {
   return (
     
       <Box sx={{ flexGrow: 1, marginBottom: "60px" }}>
-        <h1 style={{ color:"#44FDDC", marginTop: "150px"}}>Services We Provide For You</h1>
+        <h1 className="services-h1" style={{ color:"#44FDDC", marginTop: "150px"}}>Services We Provide For You</h1>
         <Container>
         <Grid
           container

@@ -4,8 +4,9 @@
     margin-top: 150px;
     margin-bottom: 80px;
 }
-h2{
-    font-size: xx-large;
+.section-h2{
+    font-size:calc(40px);
+    text-shadow: 3px 3px rgba(50, 170, 150, 0.989);
 }
 p{
     color: rgb(86, 77, 77);
