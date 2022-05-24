@@ -1,0 +1,23 @@
+.contact{
+    margin-bottom: 150px;
+}
+label{
+    color: rgb(194, 184, 184);
+    margin-right: 20px;
+    font-size: calc(20px);
+    font-weight: 600;
+}
+input{
+    padding: 30px 400px 30px 400px;
+    margin: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px rgb(235, 238, 237);
+    border-radius: 10px;
+}
+textarea{
+    width: 600px;
+    padding: 30px 80px 200px 80px;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px 2px rgb(235, 238, 237);
+}
