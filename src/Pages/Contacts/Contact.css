@@ -1,17 +1,23 @@
 .contact{
     margin-bottom: 150px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.contact-h1{
+    color: aliceblue;
 }
 label{
     color: rgb(194, 184, 184);
     margin-right: 20px;
     font-size: calc(20px);
     font-weight: 600;
+    text-align: center;
 }
 input{
     padding: 30px 400px 30px 400px;
     margin: 5px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: 0px 0px 2px 2px rgb(235, 238, 237);
+    box-shadow: 0px 0px 2px 2px rgb(83, 123, 110);
     border-radius: 10px;
 }
 textarea{
@@ -19,5 +25,5 @@ textarea{
     padding: 30px 80px 200px 80px;
     border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: 0px 0px 2px 2px rgb(235, 238, 237);
+    box-shadow: 0px 0px 2px 2px rgb(54, 69, 64);
 }

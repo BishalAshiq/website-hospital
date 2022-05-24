@@ -24,7 +24,7 @@ const PatientsReview = () => {
                 <img src={patients1} alt="" />
                 <div>
                   <h2>Joe Billah</h2>
-                  <Typography component="legend"></Typography>
+                  <Typography component="legend" style={{color: "green"}}>Rating</Typography>
                   <Rating
                     name="simple-controlled"
                     value={value}
@@ -46,7 +46,7 @@ const PatientsReview = () => {
                 <img src={patients2} alt="" />
                 <div>
                   <h2>Amber Heard</h2>
-                  <Typography component="legend"></Typography>
+                  <Typography component="legend" style={{color: "green"}}>Rating</Typography>
                   <Rating
                     name="simple-controlled"
                     value={value}
@@ -68,7 +68,7 @@ const PatientsReview = () => {
                 <img src={patients3} alt="" />
                 <div>
                   <h2>Simon Access</h2>
-                  <Typography component="legend"></Typography>
+                  <Typography component="legend" style={{color: "green"}}>Rating</Typography>
                   <Rating
                     name="simple-controlled"
                     value={value}
