@@ -24,6 +24,7 @@ const Contacts = () => {
              <label for="subject">Write Something</label>
             <textarea
             id="Write Something"
+            type="text-area"
             />
       </Container>
     </div>
