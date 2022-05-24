@@ -1,5 +1,5 @@
 import React from 'react';
-import PatientsReview from '../../PatientsReview/PatientsReview';
+import PatientsReview from '../../Home/PatientsReview/PatientsReview';
 import Banner from '../Banner/Banner';
 import ExtraSection from '../ExtraSection/ExtraSection';
 import ExtraTemp from '../ExtraTemp/ExtraTemp';

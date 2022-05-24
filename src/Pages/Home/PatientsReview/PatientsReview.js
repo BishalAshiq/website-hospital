@@ -3,16 +3,16 @@ import React from "react";
 import "./PatientsReview.css";
 import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
-import patients1 from "../../Images/Reviews/people-1.png";
-import patients2 from "../../Images/Reviews/people-2.png";
-import patients3 from "../../Images/Reviews/people-3.png";
+import patients1 from "../../../Images/Reviews/people-1.png";
+import patients2 from "../../../Images/Reviews/people-2.png";
+import patients3 from "../../../Images/Reviews/people-3.png";
 
 const PatientsReview = () => {
   const [value, setValue] = React.useState(2);
   return (
     <div>
-      <h1 className="review-h1" style={{ color: "#033330" }}>Our Patients Reviews</h1>
       <Container>
+      <h1 className="review-h1">Reviews</h1>
         <div className="patients">
           <div className="review">
             <p>
