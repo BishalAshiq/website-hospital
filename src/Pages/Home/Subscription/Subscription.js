@@ -1,7 +1,6 @@
 import { Container } from "@mui/system";
 import React from "react";
 import "./Subscription.css";
-import TextField from "@mui/material/TextField";
 import SendIcon from "@mui/icons-material/Send";
 import Button from "@mui/material/Button";
 
@@ -16,7 +15,7 @@ const Subscription = () => {
         paddingBottom: 80,
       }}
     >
-      <h1>Subscribe</h1>
+      <h1 className="h1-subs">Subscribe</h1>
       <Container>
         <input id="email" placeholder="Email" type="text" />
         <Button

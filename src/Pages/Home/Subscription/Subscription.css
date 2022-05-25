@@ -1,3 +1,5 @@
-.subs-bg{
-    color: chocolate;
+.h1-subs{
+    font-size: calc(50px);
+    color: rgb(55, 54, 56);
+    text-shadow: 0px 0px 2px 2px rgb(16, 23, 21);
 }
