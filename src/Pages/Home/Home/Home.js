@@ -4,6 +4,7 @@ import Banner from '../Banner/Banner';
 import ExtraSection from '../ExtraSection/ExtraSection';
 import ExtraTemp from '../ExtraTemp/ExtraTemp';
 import Services from '../Services/Services';
+import Subscription from '../Subscription/Subscription';
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
             <ExtraSection></ExtraSection>
             <ExtraTemp></ExtraTemp>
             <PatientsReview></PatientsReview>
-            
+            <Subscription></Subscription>
         </div>
     );
 };
