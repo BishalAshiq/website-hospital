@@ -10,10 +10,9 @@ import patients3 from "../../../Images/Reviews/people-3.png";
 const PatientsReview = () => {
   const [value, setValue] = React.useState(2);
   return (
-    <div data-aos="fade-up"
-    data-aos-anchor-placement="center-center">
+    <div data-aos="fade-up" data-aos-anchor-placement="center-center">
       <Container>
-      <h1 className="review-h1">Reviews</h1>
+        <h1 className="review-h1">Reviews</h1>
         <div className="patients">
           <div className="review">
             <p>
@@ -25,7 +24,9 @@ const PatientsReview = () => {
                 <img src={patients1} alt="" />
                 <div>
                   <h2>Joe Billah</h2>
-                  <Typography component="legend" style={{color: "green"}}>Rating</Typography>
+                  <Typography component="legend" style={{ color: "green" }}>
+                    Rating
+                  </Typography>
                   <Rating
                     name="simple-controlled"
                     value={value}
@@ -47,7 +48,9 @@ const PatientsReview = () => {
                 <img src={patients2} alt="" />
                 <div>
                   <h2>Amber Heard</h2>
-                  <Typography component="legend" style={{color: "green"}}>Rating</Typography>
+                  <Typography component="legend" style={{ color: "green" }}>
+                    Rating
+                  </Typography>
                   <Rating
                     name="simple-controlled"
                     value={value}
@@ -61,15 +64,17 @@ const PatientsReview = () => {
           </div>
           <div className="review">
             <p>
-              You're able to easily schedule your appointment any day
-              when doctors are available by their schedule time.
+              You're able to easily schedule your appointment any day when
+              doctors are available by their schedule time.
             </p>
             <Container>
               <div className="name-img">
                 <img src={patients3} alt="" />
                 <div>
                   <h2>Simon Access</h2>
-                  <Typography component="legend" style={{color: "green"}}>Rating</Typography>
+                  <Typography component="legend" style={{ color: "green" }}>
+                    Rating
+                  </Typography>
                   <Rating
                     name="simple-controlled"
                     value={value}

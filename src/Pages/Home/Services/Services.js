@@ -75,7 +75,7 @@ const Services = () => {
   return (
     <div data-aos="fade-up"
     data-aos-anchor-placement="top-center">
-      <Box sx={{ flexGrow: 1, marginBottom: "60px" }}>
+      <Box sx={{ flexGrow: 1, marginBottom: "30px" }}>
         <h1 className="services-h1" style={{ color:"rgba(16, 20, 19, 0.989)", marginTop: "150px"}}>Services We Provide For You</h1>
         <Container>
         <Grid

@@ -8,7 +8,7 @@ import Subscription from '../Subscription/Subscription';
 
 const Home = () => {
     return (
-        <div>
+        <div style={{overflowX: "hidden"}}>
             <Banner></Banner>
             <Services></Services>
             <ExtraSection></ExtraSection>

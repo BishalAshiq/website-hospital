@@ -31,7 +31,7 @@ const Banner = () => {
           </Button>
         </div>
         <div className="img-b" data-aos="fade-right">
-          <img style={{width: 550}} src={banner2} alt="" />
+          <img style={{width: 550, height: 300, borderRadius: 15}} src={banner2} alt="" />
         </div>
       </div>
 

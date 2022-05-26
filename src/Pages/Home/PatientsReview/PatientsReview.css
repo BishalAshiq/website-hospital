@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     grid-area: 10px;
-    margin-bottom: 140px;
+    margin-bottom: 100px;
 }
 .review{
  border: 1px solid rgb(232, 222, 222);
