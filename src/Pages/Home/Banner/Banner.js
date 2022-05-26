@@ -18,7 +18,7 @@ const Banner = () => {
           backgroundSize: "cover",
         }}
       >
-        <div>
+        <div data-aos="fade-left">
           <h1 className="b-h1">
             Your Smile Is Here <br /> For
             <span style={{ color: "orange" }}>The Better</span> Life!
@@ -30,19 +30,19 @@ const Banner = () => {
             Get Appointment
           </Button>
         </div>
-        <div className="img-b">
+        <div className="img-b" data-aos="fade-right">
           <img src={banner2} alt="" />
         </div>
       </div>
 
       <div className="short-temp">
-        <div>
+        <div data-aos="zoom-in-right">
           <img src={banner4} alt="" />
         </div>
-        <div>
+        <div data-aos="zoom-in-up">
           <img src={banner5} alt="" />
         </div>
-        <div>
+        <div data-aos="zoom-in-left">
           <img src={banner6} alt="" />
         </div>
       </div>
