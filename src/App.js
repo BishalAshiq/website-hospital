@@ -4,6 +4,7 @@ import Home from "./Pages/Home/Home/Home";
 import About from "./Pages/Home/About/About";
 import Navigation from "./Shared/Navigation/Navigation";
 import Contacts from "./Pages/Contacts/Contacts";
+import Footer from "./Shared/Footer/Footer";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
         <Route path="/contact" element={<Contacts/>}/>
         <Route />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

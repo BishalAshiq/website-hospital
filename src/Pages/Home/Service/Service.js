@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import React from "react";
+import './Service.css';
 import Card from "@mui/material/Card";
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from "@mui/material/CardContent";
@@ -9,7 +10,7 @@ const Service = (props) => {
   const { name, description, img } = props.service;
   return (
       <Grid item xs={4} sm={4} md={4}>
-      <Card sx={{ minWidth: 275, border: 0, boxShadow: 0 }}>
+      <Card sx={{ minWidth: 275, border: 0, boxShadow: 0 }} className="service">
       <CardMedia
         component="img"
         alt="green iguana"

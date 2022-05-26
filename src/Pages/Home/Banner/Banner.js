@@ -21,7 +21,7 @@ const Banner = () => {
         <div data-aos="fade-left">
           <h1 className="b-h1">
             Your Smile Is Here <br /> For
-            <span style={{ color: "orange" }}>The Better</span> Life!
+            <span style={{ color: "orange" }}> The Better</span> Life!
           </h1>
           {/* <p>
               Hospitals are only an intermediate stage of civilization <br/> never intended to take in the whole sick population.
