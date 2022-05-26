@@ -31,19 +31,19 @@ const Banner = () => {
           </Button>
         </div>
         <div className="img-b" data-aos="fade-right">
-          <img src={banner2} alt="" />
+          <img style={{width: 550}} src={banner2} alt="" />
         </div>
       </div>
 
       <div className="short-temp" data-aos="zoom-in-up">
         <div>
-          <img src={banner4} alt="" />
+          <img style={{borderRadius: 10}} src={banner4} alt="" />
         </div>
         <div>
-          <img src={banner5} alt="" />
+          <img style={{borderRadius: 10}} src={banner5} alt="" />
         </div>
         <div>
-          <img src={banner6} alt="" />
+          <img style={{borderRadius: 10}} src={banner6} alt="" />
         </div>
       </div>
     </section>
