@@ -13,7 +13,9 @@ const Subscription = () => {
         backgroundSize: "cover",
         paddingTop: 80,
         paddingBottom: 80,
+        marginBottom: 140,
       }}
+      data-aos="flip-up"
     >
       <h1 className="h1-subs">Subscribe</h1>
       <Container>

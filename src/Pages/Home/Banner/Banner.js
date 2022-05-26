@@ -35,14 +35,14 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="short-temp">
-        <div data-aos="zoom-in-right">
+      <div className="short-temp" data-aos="zoom-in-up">
+        <div>
           <img src={banner4} alt="" />
         </div>
-        <div data-aos="zoom-in-up">
+        <div>
           <img src={banner5} alt="" />
         </div>
-        <div data-aos="zoom-in-left">
+        <div>
           <img src={banner6} alt="" />
         </div>
       </div>
