@@ -10,6 +10,7 @@ import banner6 from "../../../Images/Banner/Banner-6.png";
 const Banner = () => {
   return (
     <section>
+      <div className="banner-section">
       <div
         className="banner"
         style={{
@@ -37,14 +38,15 @@ const Banner = () => {
 
       <div className="short-temp" data-aos="zoom-in-up">
         <div>
-          <img style={{borderRadius: 10}} src={banner4} alt="" />
+          <img style={{borderRadius: 10, marginBottom: 20}} src={banner4} alt="" />
         </div>
         <div>
-          <img style={{borderRadius: 10}} src={banner5} alt="" />
+          <img style={{borderRadius: 10, marginBottom: 20}} src={banner5} alt="" />
         </div>
         <div>
           <img style={{borderRadius: 10}} src={banner6} alt="" />
         </div>
+      </div>
       </div>
     </section>
   );

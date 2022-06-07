@@ -1,6 +1,7 @@
 .navigation{
     background-color: rgba(239, 12, 159, 0.484);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 0px;

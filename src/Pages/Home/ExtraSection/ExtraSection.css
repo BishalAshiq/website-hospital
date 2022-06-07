@@ -1,5 +1,6 @@
 .extra-section{
     display: flex;
+    flex-wrap:inherit;
     justify-content: space-around;
     margin-top: 100px;
     margin-bottom: 80px;

@@ -14,7 +14,7 @@ const ExtraTemp = () => {
       }}
     >
       <Container>
-        <div className="section">
+        <div className="sectiondiv">
           <div data-aos="fade-up"
           data-aos-duration="3000">
             <h1 className="temp-h1">
@@ -25,7 +25,7 @@ const ExtraTemp = () => {
               or treatment, but do not at this time require a bed or to be
               admitted for overnight care.
             </p>
-            <Button variant="contained">Learn More</Button>
+            <Button style={{marginBottom: 100}} variant="contained">Learn More</Button>
           </div>
           <div className="temp-img">
             <img src={doctors} alt="" />
