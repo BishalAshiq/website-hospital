@@ -3,6 +3,7 @@ import React from "react";
 import Button from "@mui/material/Button";
 import "./ExtraTemp.css";
 import doctors from "../../../Images/Extra-section/Doctor-1.png";
+import { Link } from "react-router-dom";
 
 const ExtraTemp = () => {
   return (
@@ -25,7 +26,9 @@ const ExtraTemp = () => {
               or treatment, but do not at this time require a bed or to be
               admitted for overnight care.
             </p>
-            <Button style={{marginBottom: 100}} variant="contained">Learn More</Button>
+            <Link to="/appointment"><Button style={{marginBottom: 100}} variant="contained">Learn More</Button>
+            </Link>
+            
           </div>
           <div className="temp-img">
             <img src={doctors} alt="" />

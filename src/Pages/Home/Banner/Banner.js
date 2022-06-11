@@ -6,6 +6,7 @@ import banner2 from "../../../Images/Banner/banner-2.jpg";
 import banner4 from "../../../Images/Banner/Banner-4.png";
 import banner5 from "../../../Images/Banner/Banner-5.png";
 import banner6 from "../../../Images/Banner/Banner-6.png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -27,9 +28,11 @@ const Banner = () => {
           {/* <p>
               Hospitals are only an intermediate stage of civilization <br/> never intended to take in the whole sick population.
             </p> */}
-          <Button variant="contained" endIcon={<SendIcon />}>
+            <Link to="/appointment"><Button variant="contained" endIcon={<SendIcon />}>
             Get Appointment
           </Button>
+          </Link>
+          
         </div>
         <div className="img-b" data-aos="fade-right">
           <img style={{width: 550, height: 300, borderRadius: 15}} src={banner2} alt="" />
