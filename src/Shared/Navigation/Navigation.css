@@ -1,7 +1,6 @@
 .navigation{
     background-color: rgba(239, 12, 159, 0.484);
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin: 0px;
@@ -16,4 +15,15 @@ a{
     font-weight: bolder;
     font-size: larger;
     margin-right: 40px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 576px)  {
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

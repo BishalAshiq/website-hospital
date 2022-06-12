@@ -10,7 +10,8 @@ import patients3 from "../../../Images/Reviews/people-3.png";
 const PatientsReview = () => {
   const [value, setValue] = React.useState(2);
   return (
-    <div data-aos="fade-up" data-aos-anchor-placement="center-center">
+    <div
+     data-aos="fade-up" data-aos-anchor-placement="center-center">
       <Container>
         <h1 className="review-h1">Reviews</h1>
         <div className="patients">

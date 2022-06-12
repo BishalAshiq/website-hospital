@@ -7,6 +7,7 @@ import Button from "@mui/material/Button";
 const Subscription = () => {
   return (
     <div
+      className="subscribe-div"
       style={{
         backgroundImage: `url("https://i.ibb.co/T1f1KT1/bg.jpg")`,
         backgroundRepeat: "no-repeat",
