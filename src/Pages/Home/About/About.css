@@ -1,7 +1,6 @@
 #about{
     background-color: rgba(237, 237, 236, 0.341);
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
     padding-top: 50px;
@@ -13,7 +12,18 @@
 .img{
     border-radius: 50px;
     margin-right: 50px;
+   
 }
 .article{
     margin-right: 20px;
+}
+
+@media only screen and (max-width: 576px)  {
+ #about{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .img{
+    overflow-x: hidden;
+ }
 }
