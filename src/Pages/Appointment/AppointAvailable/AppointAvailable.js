@@ -64,11 +64,12 @@ const AppointAvailable = ({ date }) => {
     <div style={{overflow: "hidden"}}>
       <Container>
       <h1 style={{backgroundColor: "#08A4CB", color: "white", border: "2px solid #FA9000", borderRadius: 20, boxShadow: "2px 2px gray", marginBottom: 80}}><span style={{textTransform: "uppercase"}}>Take A Date : </span> {date.toDateString()}</h1>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} style={{marginBottom: 80}}>
           {
             bookings.map(booking=><Booking
             key={booking.id}
             booking={booking}
+            date={date}
             ></Booking>)
           }
       </Grid>

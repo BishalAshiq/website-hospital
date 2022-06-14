@@ -8,14 +8,14 @@ import Typography from "@mui/material/Typography";
 import SendIcon from "@mui/icons-material/Send";
 import BookingModal from "../BookingModal/BookingModal";
 
-const Booking = ({ booking }) => {
+const Booking = ({ booking, date }) => {
   const { name, time, space } = booking;
   const [openBooking, setBookingOpen] = React.useState(false);
   const handleBookingOpen = () => setBookingOpen(true);
   const handleBookingClose = () => setBookingOpen(false);
   return (
     <>
-      <Grid item xs={12} sm={6} lg={4} style={{ marginBottom: 20 }}>
+      <Grid item xs={12} sm={6} lg={4} style={{ marginBottom: 20  }}>
         <Card sx={{ maxWidth: 345 }}>
           <CardContent>
             <Typography
@@ -49,6 +49,7 @@ const Booking = ({ booking }) => {
         booking={booking}
         handleBookingClose={handleBookingClose}
         openBooking={openBooking}
+        date={date}
       ></BookingModal>
     </>
   );
