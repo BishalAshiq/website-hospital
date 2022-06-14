@@ -21,6 +21,14 @@ const style = {
 
 const BookingModal = ({ openBooking, handleBookingClose, booking, date }) => {
   const { name, time} = booking;
+  
+  const handleBookingSubmit = e =>{
+    alert("Appointment Done, Thank You for choosing Raditon Hospital");
+    //Collect Data
+    //Send to the Server
+    handleBookingClose();
+    e.preventDefault();
+  }
 
   return (
     <Modal
@@ -39,7 +47,7 @@ const BookingModal = ({ openBooking, handleBookingClose, booking, date }) => {
           <Typography id="transition-modal-title" variant="h6" component="h2">
             {name}
           </Typography>
-         <form>
+         <form onSubmit={handleBookingSubmit}>
          <TextField
           disabled
           sx={{width: "90%", m: 1}}
@@ -72,7 +80,7 @@ const BookingModal = ({ openBooking, handleBookingClose, booking, date }) => {
           defaultValue={date.toDateString()}
           size="small"
         />
-        <Button type="submit" variant="contained" color="warning">Grab Appointment</Button>
+        <Button style={{marginLeft: 10}} type="submit" variant="contained" color="info">Grabbing Appointment</Button>
          </form>
         </Box>
       </Fade>
