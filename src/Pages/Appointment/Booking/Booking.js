@@ -6,10 +6,15 @@ import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import SendIcon from '@mui/icons-material/Send';
+import BookingModal from "../BookingModal/BookingModal";
 
 const Booking = ({ booking }) => {
   const { name, time, space } = booking;
+  const [openBooking, setBookingOpen] = React.useState(false);
+  const handleBookingOpen = () => setBookingOpen(true);
+  const handleBookingClose = () => setBookingOpen(false);
   return (
+   <>
     <Grid item xs={12} sm={6} lg={4} style={{marginBottom: 20}}>
       <Card sx={{ maxWidth: 345 }}>
         <CardContent>
@@ -25,12 +30,19 @@ const Booking = ({ booking }) => {
         </CardContent>
 
         <CardActions style={{ display: "grid", placeItem: "center" }}>
-          <Button variant="contained" endIcon={<SendIcon />}>
+          <Button onClick={handleBookingOpen} variant="contained" endIcon={<SendIcon />}>
             Booking Your Space
           </Button>
         </CardActions>
       </Card>
     </Grid>
+    <BookingModal
+      booking={booking}
+      handleBookingClose={handleBookingClose}
+      openBooking={openBooking}
+    ></BookingModal>
+    
+   </>
   );
 };
 
