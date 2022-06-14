@@ -17,9 +17,8 @@ const style = {
   p: 4,
 };
 
-const BookingModal = ({openBooking, handleBookingClose, booking}) => {
-  
-    const {name, time} = booking;
+const BookingModal = ({ openBooking, handleBookingClose, booking }) => {
+  const { name, time } = booking;
 
   return (
     <Modal
