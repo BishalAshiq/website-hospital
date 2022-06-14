@@ -23,7 +23,7 @@ const BookingModal = ({ openBooking, handleBookingClose, booking, date }) => {
   const { name, time} = booking;
   
   const handleBookingSubmit = e =>{
-    alert("Appointment Done, Thank You for choosing Raditon Hospital");
+    alert("Appointment Done, Thank You for choosing Raditon Hospital !");
     //Collect Data
     //Send to the Server
     handleBookingClose();
