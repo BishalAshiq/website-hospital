@@ -1,33 +1,78 @@
-import { Grid, Typography } from "@mui/material";
+import { Button, Grid, Typography } from "@mui/material";
 import { Container } from "@mui/system";
-import React from "react";
+import TextField from "@mui/material/TextField";
+import React, { useState } from "react";
 import loginImg from "../../../Images/Contacts/login.png";
 
 const Login = () => {
-  
-    const handleLoginSubmit = e =>{
-        
-     e.preventDefault();
-    }
+const [loginData, setLoginData] = useState({});
+  const handleOnChange = e =>{
+   const field = e.target.name;
+   const value = e.target.value;
+   const newLoginData = {...loginData};
+   newLoginData[field]= value;
+   setLoginData(newLoginData);
+  }
+  const handleLoginSubmit = e => {
+    e.preventDefault();
+  };
 
-    return (
-    <div>
-      <Container>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={6}>
-            <Typography variant="body1" gutterBottom>
+  return (
+    <Container>
+      <Grid container spacing={2} style={{ marginTop: 100 }}>
+        <Grid
+          style={{ marginTop: 100, marginBottom: 200, width: 300 }}
+          item
+          xs={12}
+          md={6}
+        >
+          <Typography
+            style={{
+              textAlign: "center",
+              alignItems: "center",
+              fontSize: 30,
+              marginBottom: 30,
+            }}
+            variant="body1"
+            gutterBottom
+          >
+            Login
+          </Typography>
+          <from onSubmit={handleLoginSubmit}>
+            <TextField
+              style={{ width: 400, marginBottom: 20 }}
+              onChange={handleOnChange}
+              id="standard-basic"
+              label="Your Email"
+              name="email"
+              variant="standard"
+            />{" "}
+            <br />
+            <TextField
+              style={{ width: 400, marginBottom: 20 }}
+              onChange={handleOnChange}
+              id="standard-basic"
+              label="Password"
+              type="password"
+              name="password"
+              variant="standard"
+            /> <br/>
+            <Button 
+              style={{padding: "7px 40px", marginBottom: 30}}
+              type="submit"
+              variant="outlined" 
+              color="error">
               Login
-            </Typography>
-            <from onSubmit={handleLoginSubmit}>
-
-            </from>
-          </Grid>
-          <Grid item xs={12} md={6}>
-            <img src={loginImg} alt="" />
-          </Grid>
+            </Button>
+          </from> <br/>
+          <a style={{color: "black"}} href="/register"> Create New Account?</a>
+          <a style={{color: "black"}} href="/login"> Sign In With Google?</a>
         </Grid>
-      </Container>
-    </div>
+        <Grid item xs={12} md={6}>
+          <img style={{ width: 600, marginLeft: -75 }} src={loginImg} alt="" />
+        </Grid>
+      </Grid>
+    </Container>
   );
 };
 

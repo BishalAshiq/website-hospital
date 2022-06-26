@@ -18,9 +18,7 @@ label{
 input{
     padding: 30px 400px 30px 400px;
     margin: 5px;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 0px 0px 2px 2px rgb(83, 123, 110);
-    border-radius: 10px;
+    
 }
 textarea{
     width: 600px;
