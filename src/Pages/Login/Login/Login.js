@@ -1,4 +1,5 @@
 import { Button, Grid, Typography } from "@mui/material";
+import { NavLink } from "react-router-dom";
 import { Container } from "@mui/system";
 import TextField from "@mui/material/TextField";
 import React, { useState } from "react";
@@ -65,8 +66,22 @@ const [loginData, setLoginData] = useState({});
               Login
             </Button>
           </from> <br/>
-          <a style={{color: "black"}} href="/register"> Create New Account?</a>
-          <a style={{color: "black"}} href="/login"> Sign In With Google?</a>
+        
+          <Grid item xs={12} style={{marginLeft: 40}}>
+          <NavLink to="/register">
+          <Button
+          variant="text"
+          >Create a New Account?
+          </Button>
+          </NavLink>
+          <NavLink to="/login">
+          <Button
+          variant="text"
+          >Sign In With Google?
+          </Button>
+          </NavLink>
+          </Grid>
+          
         </Grid>
         <Grid item xs={12} md={6}>
           <img style={{ width: 600, marginLeft: -75 }} src={loginImg} alt="" />
