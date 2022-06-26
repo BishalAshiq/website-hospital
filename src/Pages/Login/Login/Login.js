@@ -6,15 +6,15 @@ import React, { useState } from "react";
 import loginImg from "../../../Images/Contacts/login.png";
 
 const Login = () => {
-const [loginData, setLoginData] = useState({});
-  const handleOnChange = e =>{
-   const field = e.target.name;
-   const value = e.target.value;
-   const newLoginData = {...loginData};
-   newLoginData[field]= value;
-   setLoginData(newLoginData);
-  }
-  const handleLoginSubmit = e => {
+  const [loginData, setLoginData] = useState({});
+  const handleOnChange = (e) => {
+    const field = e.target.name;
+    const value = e.target.value;
+    const newLoginData = { ...loginData };
+    newLoginData[field] = value;
+    setLoginData(newLoginData);
+  };
+  const handleLoginSubmit = (e) => {
     e.preventDefault();
   };
 
@@ -46,6 +46,7 @@ const [loginData, setLoginData] = useState({});
               id="standard-basic"
               label="Your Email"
               name="email"
+              type="email"
               variant="standard"
             />{" "}
             <br />
@@ -57,31 +58,26 @@ const [loginData, setLoginData] = useState({});
               type="password"
               name="password"
               variant="standard"
-            /> <br/>
-            <Button 
-              style={{padding: "7px 40px", marginBottom: 30}}
+            />{" "}
+            <br />
+            <Button
+              style={{ padding: "7px 40px", marginBottom: 30 }}
               type="submit"
-              variant="outlined" 
-              color="error">
+              variant="outlined"
+              color="error"
+            >
               Login
             </Button>
-          </from> <br/>
-        
-          <Grid item xs={12} style={{marginLeft: 40}}>
-          <NavLink to="/register">
-          <Button
-          variant="text"
-          >Create a New Account?
-          </Button>
-          </NavLink>
-          <NavLink to="/login">
-          <Button
-          variant="text"
-          >Sign In With Google?
-          </Button>
-          </NavLink>
+          </from>{" "}
+          <br />
+          <Grid item xs={12} style={{ marginLeft: 40 }}>
+            <NavLink to="/register">
+              <Button variant="text">Create a New Account?</Button>
+            </NavLink>
+            <NavLink to="/login">
+              <Button variant="text">Sign In With Google?</Button>
+            </NavLink>
           </Grid>
-          
         </Grid>
         <Grid item xs={12} md={6}>
           <img style={{ width: 600, marginLeft: -75 }} src={loginImg} alt="" />

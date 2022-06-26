@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Grid, Typography } from "@mui/material";
+import { Button, Grid} from "@mui/material";
 import { NavLink } from "react-router-dom";
 import { Container } from "@mui/system";
 import TextField from "@mui/material/TextField";
@@ -8,6 +8,7 @@ import registerImg from "../../../Images/Contacts/Register.png";
 
 const Register = () => {
   const [loginData, setLoginData] = useState({});
+
   const handleOnChange = (e) => {
     const field = e.target.name;
     const value = e.target.value;
@@ -16,6 +17,10 @@ const Register = () => {
     setLoginData(newLoginData);
   };
   const handleLoginSubmit = (e) => {
+    if(loginData.password !== loginData.password2){
+      alert('Your Password did not match');
+      return
+    }
     e.preventDefault();
   };
   return (
@@ -34,18 +39,6 @@ const Register = () => {
           xs={12}
           md={6}
         >
-          <Typography
-            style={{
-              textAlign: "center",
-              alignItems: "center",
-              fontSize: 30,
-              marginBottom: 30,
-            }}
-            variant="body1"
-            gutterBottom
-          >
-            Register Here
-          </Typography>
           <from onSubmit={handleLoginSubmit}>
             <TextField
               style={{ width: 400, marginBottom: 20 }}
@@ -53,6 +46,7 @@ const Register = () => {
               id="standard-basic"
               label="Your Email"
               name="email"
+              type="email"
               variant="standard"
             />{" "}
             <br />
@@ -65,6 +59,15 @@ const Register = () => {
               name="password"
               variant="standard"
             />{" "}
+            <TextField
+              style={{ width: 400, marginBottom: 20 }}
+              onChange={handleOnChange}
+              id="standard-basic"
+              label="Re-Type Password"
+              type="password"
+              name="password2"
+              variant="standard"
+            />{" "}
             <br />
             <Button
               style={{ padding: "7px 40px", marginBottom: 30 }}
@@ -72,7 +75,7 @@ const Register = () => {
               variant="outlined"
               color="error"
             >
-              Login
+              Registration
             </Button>
           </from>{" "}
           <br />
