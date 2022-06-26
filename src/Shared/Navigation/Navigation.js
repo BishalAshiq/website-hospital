@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navigation.css";
 import logo from "../../Images/Frame 1.png";
+import { Button } from "@mui/material";
 const Navigation = () => {
   return (
     <div className="navigation">
@@ -17,7 +18,7 @@ const Navigation = () => {
         <nav>
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/contact">Contact US</Link>
+          <NavLink to="/login"><Button color="inherit">Login</Button></NavLink>
         </nav>
       </div>
     </div>
