@@ -1,9 +1,13 @@
 .navigation{
-    background-color: rgba(239, 12, 159, 0.484);
+    background-color: rgba(255, 72, 17, 0.484);
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px;
+}
+.img-nav{
+    width: 200px;
+    margin-left: 50px;
 }
 img{
     width: 300px;

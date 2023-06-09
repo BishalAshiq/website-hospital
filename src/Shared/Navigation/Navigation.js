@@ -7,7 +7,7 @@ const Navigation = () => {
   return (
     <div className="navigation">
       <div>
-        <img src={logo} alt="" />
+        <img className="img-nav" src={logo} alt="" />
       </div>
       <div
         data-aos="fade-left"
@@ -17,7 +17,7 @@ const Navigation = () => {
       >
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
+          <Link to="/about">Hospital</Link>
           <NavLink to="/login"><Button color="inherit">Login</Button></NavLink>
         </nav>
       </div>
