@@ -28,7 +28,7 @@ const Navigation = () => {
               <span className="logout-text" onClick={logout}>Logout</span>
             ) : (
               <NavLink to="/login">
-                <span>Login</span>
+                <span className="logout-text">Login</span>
               </NavLink>
             )}
            </div>

@@ -37,6 +37,16 @@ a{
     font-size: 15px;
     margin-right: 40px;
     cursor: pointer;
+    background-color: #09a0e6;
+    padding: 7px 15px;
+    border-radius: 6px;
+    /* box-shadow: 3px 5px rgba(194, 231, 222, 0.989); */
+}
+.logout-text:hover{
+    background-color: #330867;
+    border-radius: 6px;
+    color: white;
+    transition: all;
 }
 
 

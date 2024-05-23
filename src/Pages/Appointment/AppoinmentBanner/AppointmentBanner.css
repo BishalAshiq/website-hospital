@@ -2,3 +2,16 @@
     margin: 16px 0 50px 0;
     /* padding: 90px 0 0 0; */
 }
+.takedate{
+    background-color: #08A4CB;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px gray;
+    margin: 20px 0 30px 0;    
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+/* style={{backgroundColor: "#08A4CB", color: "white", border: "2px solid #FA9000", borderRadius: 20, boxShadow: "2px 2px gray", marginBottom: 80, fontSize: "25px"}} */
