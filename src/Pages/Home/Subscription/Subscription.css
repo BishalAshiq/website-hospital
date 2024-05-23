@@ -1,0 +1,14 @@
+.h1-subs{
+    font-size: calc(50px);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px rgb(179, 231, 216);
+}
+
+@media only screen and (max-width: 576px) {
+    .subscribe-div{
+        width: 500px;
+    }
+    #email{
+       
+    }
+}

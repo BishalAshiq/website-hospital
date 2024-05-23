@@ -1,0 +1,37 @@
+.navigation{
+    /* position: absolute; */
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px; */
+}
+.img-nav{
+    width: 200px;
+    margin-left: 50px;
+}
+img{
+    width: 300px;
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: 40px;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 576px)  {
+    .navigation{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

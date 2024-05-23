@@ -1,0 +1,4 @@
+.service:hover{
+    box-shadow: 10px 20px 5px 0px rgb(221, 242, 245);
+    cursor: pointer;
+}

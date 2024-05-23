@@ -1,0 +1,43 @@
+.banner {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  padding-bottom: 150px;
+}
+
+.img-b {
+  margin-top: 130px;
+}
+
+.b-h1 {
+  font-size: calc(40px);
+  color: aliceblue;
+  margin-top: 200px;
+}
+
+.short-temp {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -35px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 576px) {
+  .banner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner img{
+    overflow: auto;
+  }
+  .short-temp{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+

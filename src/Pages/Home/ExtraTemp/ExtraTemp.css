@@ -1,0 +1,33 @@
+.sectiondiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.temp-img{
+    margin-top: -80px;
+}
+
+.temp-h1{
+    color: antiquewhite;
+    margin-top: 70px;
+}
+.temp-p{
+    color:rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.temp-ps{
+    color:rgb(255, 255, 255);
+    text-align: justify;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 576px){
+    .sectiondiv{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

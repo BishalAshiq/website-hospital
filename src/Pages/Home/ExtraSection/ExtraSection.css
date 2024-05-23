@@ -1,0 +1,25 @@
+.extra-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.section-h2{
+    font-size:calc(40px);
+    text-shadow: 1px 2px rgba(121, 163, 156, 0.989);
+}
+p{
+    color: rgb(86, 77, 77);
+    font-weight: 500;
+    text-align: justify;
+    margin-left: 60px;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 576px){
+  .extra-section{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
