@@ -1,8 +1,20 @@
+.subscribe-div{
+    display: grid;
+    place-items: center;
+}
 .h1-subs{
     font-size: calc(50px);
     color: rgb(0, 0, 0);
     text-shadow: 2px 2px rgb(179, 231, 216);
 }
+.subs-inp{
+    margin: 0 0 20px 0;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
 
 @media only screen and (max-width: 576px) {
     .subscribe-div{

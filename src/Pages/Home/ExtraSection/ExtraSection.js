@@ -15,9 +15,9 @@ const ExtraSection = () => {
         <div>
           <img src={extraimg} alt="" />
         </div>
-        <div>
+        <div className="text-special">
           <h2 className="section-h2">Special Cardiologist</h2>
-          <p>
+          <p className="temp-p">
             Cardiology is a specialty of internal medicine. To be a cardiologist
             in the United States, a three-year residency in internal medicine is
             followed by a three-year fellowship in cardiology. It is possible to

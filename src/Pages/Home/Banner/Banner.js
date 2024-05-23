@@ -3,7 +3,7 @@ import SendIcon from "@mui/icons-material/Send";
 import React from "react";
 import "./Banner.css";
 import banner2 from "../../../Images/Banner/banner-2.jpg";
-import banner4 from "../../../Images/Banner/banner-4.png";
+import banner4 from "../../../Images/Banner/Banner-4.png";
 import banner5 from "../../../Images/Banner/banner-5.png";
 import banner6 from "../../../Images/Banner/banner-6.png";
 import { useNavigate } from "react-router-dom";

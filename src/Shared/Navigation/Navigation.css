@@ -9,6 +9,11 @@
     align-items: center;
     /* margin: 0px; */
 }
+.nav-right{
+    display: flex;
+    align-items: center;
+    
+}
 .img-nav{
     width: 200px;
     margin-left: 50px;
@@ -23,6 +28,15 @@ a{
     font-weight: bolder;
     font-size: 15px;
     margin-right: 40px;
+    cursor: pointer;
+}
+.logout-text{
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: 40px;
+    cursor: pointer;
 }
 
 

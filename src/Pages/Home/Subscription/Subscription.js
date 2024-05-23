@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 const Subscription = () => {
   return (
     <div
-      className="subscribe-div"
+      className="subscribe-div "
       style={{
         backgroundImage: `url("https://i.ibb.co/T1f1KT1/bg.jpg")`,
         backgroundRepeat: "no-repeat",
@@ -19,16 +19,16 @@ const Subscription = () => {
       data-aos="flip-up"
     >
       <h1 className="h1-subs">Subscribe</h1>
-      <Container>
-        <input id="email" placeholder="Email" type="text" />
+      <>
+        <input className="subs-inp" id="email" placeholder="Email" type="text" />
         <Button
-          style={{ marginLeft: 20 }}
+         
           variant="contained"
           endIcon={<SendIcon />}
         >
           Subscribe
         </Button>
-      </Container>
+      </>
     </div>
   );
 };

@@ -1,4 +1,3 @@
-// src/Pages/Login/Login/Login.js
 import React, { useState } from "react";
 import { Button, Grid, Typography } from "@mui/material";
 import { NavLink, useNavigate } from "react-router-dom";
@@ -10,6 +9,7 @@ import { useAuth } from "../../../context/AuthContext";
 const Login = () => {
   const [loginData, setLoginData] = useState({});
   const { login } = useAuth();
+  const navigate = useNavigate();
 
   const handleOnChange = (e) => {
     const field = e.target.name;
@@ -25,7 +25,8 @@ const Login = () => {
     if (email === 'admin@admin.com' && password === 'password') {
       login();
     } else {
-      alert("Invalid email or password.");
+      alert("Invalid email or password. If you are new, please register.");
+      navigate("/register");
     }
   };
 

@@ -4,16 +4,19 @@
     margin-top: 100px;
     margin-bottom: 80px;
 }
+
+.text-special{
+  margin: 0 0 0 20px;
+}
 .section-h2{
     font-size:calc(40px);
     text-shadow: 1px 2px rgba(121, 163, 156, 0.989);
 }
-p{
-    color: rgb(86, 77, 77);
-    font-weight: 500;
-    text-align: justify;
-    margin-left: 60px;
+.temp-p{
+  color:rgb(22, 22, 22);
+  text-align: justify;
 }
+
 
 
 /* Responsive */
